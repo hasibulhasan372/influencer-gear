@@ -1,0 +1,287 @@
+/*-------------------
+ Common CSS Start
+ --------------------  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+a{
+    text-decoration: none;
+ }
+ul, ol{
+    list-style-type: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --primary-color: #3A3A3A;
+    --primary-font-weight:600; 
+}
+.container{
+    max-width: 1224px;
+    margin: 0 auto;
+}
+/*---------------------------
+ Header part 
+ ---------------------------- */
+/* Nav Bar Part Start  */
+.header{
+    padding-top: 42px;
+}
+.nav-bar{
+    max-width: 1224px;
+    margin: 0 auto;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.business-name a{
+   font-size: 24px;   
+   font-weight: 700;
+   color: var(--primary-color);
+}
+.menu-bar{
+    display: flex;
+    align-items: center;
+}
+
+.nav-items{
+    display: flex;
+}
+.nav-link{
+    margin-right: 34px;
+}
+.nav-link a{
+    font-weight: var(--primary-font-weight);
+    color: var(--primary-color);
+    text-transform: capitalize;
+
+}
+.fa-magnifying-glass{
+    color: #000000; 
+    font-style: 19PX;
+   margin-right:  28px;  
+}
+/* Nav Bar Part End  */
+
+/*--------------------
+ Main Part Style  
+ ----------------------*/
+
+/* Banner Part Start  */
+#banner-part{
+  padding-top: 50px;
+  padding-bottom: 70px;
+
+}
+.banner-body{
+    display: flex;
+    gap: 133px;
+}
+.banner-text{
+    padding-top:96px;
+}
+.banner-headline{
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 70px;
+    color: var(--primary-color);
+}
+.business-moto{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--primary-color);
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+.prebook-btn{
+    padding: 10px 24px;
+    border: none;
+    border-radius:41px ;
+    background-color: #E02C6D;
+
+}
+.prebook-btn a{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.prebook-btn a i{
+    color: #fff;
+    margin-left: 6px;
+}
+.banner-img{
+    background-image: url(../images/circle-design.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;;
+    padding-top: 20px;
+}
+/* Banner Part End  */
+
+/* Logo Part Start  */
+.logo-box{
+    margin: 0 42px;;
+   
+}
+hr{
+   
+   border: 1px solid #c0ccda6f;
+}
+.logos{
+   padding: 35px 62px 37px 62px;
+   display: flex;
+   gap: 59px;
+   flex-wrap: wrap;
+}
+
+
+/* Logo Part End  */
+
+/* Collection Part Start  */
+#popular-collection{
+    margin-top: 95px;
+    padding-bottom: 105px;
+}
+.collection-part{
+    margin: 0 5.13rem 0 3.69rem;
+    padding-top: 25px;
+    padding-bottom: 75px;
+}
+.collection-title{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 70px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    row-gap: 30px;
+
+}
+.collection{
+    padding: 17px 15px 17px 14px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+.product-title{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    color: #18191F;
+}
+.price{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;   
+    color: rgba(0, 0, 0, 0.87);
+}
+.product-info{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 143%;
+    color: #787885;
+}
+.fa-star,.fa-star-half-stroke.filled{
+    color: #FB8200 ;
+}
+
+/* Collection Part End  */
+
+/* Product Feature Part Style Start   */
+#product-feat{
+    padding-bottom: 100px;
+}
+.feat-part{
+    margin: 0 2.63rem;
+    display: flex;
+    gap: 96px;
+   align-items: center;
+}
+.feat-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 60px;
+    color: #0A0826;
+}
+.feat-details{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    padding-bottom: 16px;
+    color: #6C6C6C;
+}
+.join-now{
+   background-color: #E02C6D;
+   padding: 10px 24px;
+   border: none;
+}
+.join-now a{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.join-now i{
+    color: #fff;
+    margin-left: 8px;
+}
+
+/* Product Feature Part Style End   */
+
+/*--------------------------------
+ Footer Style Part 
+ --------------------------------- */
+#footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #0A0826;
+}
+.footer-part{
+    text-align: center;
+}
+.footer-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #fff;
+}
+.copy-write{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px; 
+    color: #fff;
+}
+.reserve{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+}
+.social-media a{
+    color: #fff;
+    margin-right: 16px;
+}
+
+/*-------------------------------------
+ Media Query Part Start  
+ --------------------------------------*/
+
+/* For Mobile Device  */
+
+@media only screen  and {
+    
+}
